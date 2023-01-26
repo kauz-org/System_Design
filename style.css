@@ -1,3 +1,26 @@
-.body{
-    background-color: 0x332fd0;
+*{
+    background-color: #332fd0;
+    text-decoration: none;
+}
+#header{
+    display:grid;
+    grid-row: repeat(10px);  
+}
+.ul__nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+}
+.active{
+    color:#f52af5;
+}
+.link__nav{
+    text-decoration: none;
+    color: #ffffff;
+}
+.link__nav:hover{
+    text-decoration: none;
+    color: #f52af5;
 }
